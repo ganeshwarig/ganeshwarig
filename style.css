@@ -1,0 +1,132 @@
+.landingpage{
+    background-image: url("./Assets/png/BG_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar p{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: left;
+}
+.landingpage h2{
+    font-family: Heebo;
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.3428572118282318px;
+text-align: center;
+color: #283A5E;
+}
+.landingpage p{
+    font-family: Heebo;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.3428572118282318px;
+text-align: center;
+color: #283A5E;
+}
+.landingpage h4{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.3428572118282318px;
+text-align: center;
+}
+.leftpara{
+    font-family: Heebo;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.6000000238418579px;
+text-align: center;
+}
+input{
+    width: 193px;
+    height: 40px;
+    border: 1px solid #CBD2E0;  
+}
+input ::placeholder{
+font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3428572118282318px;
+text-align: left;
+border-top: 0;
+}
+.rightbox{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px -5px #5A709533;
+    padding: 60px;
+    margin: 0 0 20px 0;
+}
+.rightpara{
+    font-family: Heebo;
+font-size: 13px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.6000000238418579px;
+text-align: center;
+margin: auto;
+color: #606F85;
+width: 75%;
+
+}
+.rightinput input{
+   margin: 0 0 20px 0;
+   border-top: 1px;
+   border-left: 1px;
+   border-right: 1px;
+   width: 75%;
+}
+button{
+    width: 75%;
+}
+.navigator{
+    background: #ECF2FE;
+    margin: 0 !important;
+    padding: 10px;
+}
+.navigator li{
+    font-family: heebo;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 40px;
+}
+.navigator a{
+    text-decoration: none;
+    color: #283A5E;
+}
+.navigator a :hover{
+    color: #606F85;
+}
+.featurepage{
+    margin: 20px;
+}
+.featurepage img{
+    background-color: green;
+}
+.featurebox{
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    padding: 5px;
+}
+.featurebox p{
+    color: #606F85;
+    padding-bottom: 50px;
+    width: 60%;
+}
+.footer{
+    background: #ECF2FE;
+    margin: 0 !important;
+    padding: 10px;
+}
+
