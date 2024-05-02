@@ -130,3 +130,15 @@ button{
     padding: 10px;
 }
 
+.main-content {
+    height: 100%;
+    min-height: 100%;
+}
+
+.featurepage h4 {
+    margin-bottom: 16px;
+}
+
+.featurepage h4::first-letter {
+    text-transform: uppercase;
+}
