@@ -142,3 +142,7 @@ button{
 .featurepage h4::first-letter {
     text-transform: uppercase;
 }
+
+a.selected {
+    color: blue;
+}
