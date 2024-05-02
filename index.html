@@ -13,46 +13,41 @@
     <div style="height: 93vh;">
     <div class="navigator">
         <ul class="d-flex justify-content-center align-center">
-            <li><a>Personal Details</a></li>
-            <li><a>Work Wizards</a></li>
-            <li><a>Design Squad</a></li>
-            <li><a>Fantastic Four</a></li>
+            <li><a href="#" class="selected" onclick="loadPage('personaldetail.html' , this); return false;">Personal Details</a></li>
+            <li><a href="#" onclick="loadPage('workwizard.html' , this); return false;">Work Wizards</a></li>
+            <li><a href="#" onclick="loadPage('designsquad.html' , this); return false;">Design Squad</a></li>
+            <li><a href="#" onclick="loadPage('fantasticfour.html' , this); return false;">Fantastic Four</a></li>
         </ul>
     </div>
     
-    <div class="container featurepage">
-        <div class="row">
-            
-            <div class="col-md-4 featurebox">
-                <h2> Name </h2>
-                <p>Lorem ipsum dolor sit amet, consectetu do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            
-            <div class="col-md-4 featurebox">
-                <h2> Name </h2>
-                <p>Lorem ipsum dolor sit amet, consectetu do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            
-            <div class="col-md-4 featurebox">
-                <h2> Name </h2>
-                <p>Lorem ipsum dolor sit amet, consectetu do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-            
-            <div class="col-md-4 featurebox">
-                <h2> Name </h2>
-                <p>Lorem ipsum dolor sit amet, consectetu do eiusmod tempor incididunt ut labore et.</p>
-            </div>
+    <div class="main-content" id="mainContent">
 
-            <div class="col-md-4 featurebox">
-                <h2> Name </h2>
-                <p>Lorem ipsum dolor sit amet, consectetu do eiusmod tempor incididunt ut labore et.</p>
-            </div>
-        </div>
     </div>
     </div>
     <div class="footer">
         <p>© 2021</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+       function loadPage(url , link) {
+        if(link) {
+            var links = document.querySelectorAll('a');
+            links.forEach(function(link) {
+        link.classList.remove('selected');
+    });
+
+    event.target.classList.add('selected');
+
+    link.classList.add('selected');
+        }
+        document.getElementById('mainContent').innerHTML = '<iframe src="' + url + '" style="width: 100%; height: 100%; border: none;"></iframe>';
+    }
+    
+    window.onload = function() {
+        loadPage('personaldetail.html');
+    };
+
+    </script>
 </body>
 </html>
