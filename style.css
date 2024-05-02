@@ -146,3 +146,16 @@ button{
 a.selected {
     color: blue;
 }
+p{
+    padding-top: 20px;
+}
+span{
+        font-weight: 700;
+        font-size: 18px;
+    }
+#native{
+    position: relative;
+    bottom: 15%;
+}
+
+
