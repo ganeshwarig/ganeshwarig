@@ -1,0 +1,15 @@
+diff --git a/workwizard.html b/workwizard.html
+index 83e18ed..faba150 100644
+--- a/workwizard.html
++++ b/workwizard.html
+@@ -6,4 +6,9 @@
+ <div class="container featurepage">
+     <h4>work   Wizards</h4> 
+ 
++    <div>
++        <h5>Nihil S</h5>
++        <p>nihil.suresh@syncfusion.com</p>
++        <p>Srivilliputtur</p>
++    </div>
+ </div>
+\ No newline at end of file
