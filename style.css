@@ -146,6 +146,20 @@ button{
 a.selected {
     color: blue;
 }
+
+
+/* ---custom--- */
+
+.my_label{
+    padding-bottom:10px !important ;
+}
+
+.my_heading{
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 5px !important;
+    margin: 0;
+}
 p{
     padding-top: 20px;
 }
